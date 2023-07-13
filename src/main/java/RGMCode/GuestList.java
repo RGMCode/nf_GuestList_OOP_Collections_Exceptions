@@ -1,10 +1,11 @@
 package RGMCode;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class GuestList {
 
-    private List<String> guests;
+    private List<String> guests = new ArrayList<>();
 
     public List<String> getGuests(){
         return guests;

@@ -49,7 +49,7 @@ class GuestListTest {
     void addGuest(){
         //given
         GuestList guestList = new GuestList();
-        guestList.setGuests(List.of());
+        //guestList.setGuests(List.of());
         //when
         boolean actual = guestList.addGuest("Stephan");
         //then
